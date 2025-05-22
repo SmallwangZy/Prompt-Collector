@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#50E3C2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#grad1)" />
+  <path d="M60,70 L140,70 L140,130 L60,130 Z" fill="white" opacity="0.9" />
+  <path d="M70,80 L130,80 M70,90 L110,90 M70,100 L120,100 M70,110 L115,110 M70,120 L125,120" stroke="#4A90E2" stroke-width="4" stroke-linecap="round" />
+  <circle cx="150" cy="50" r="20" fill="#FFD700" />
+  <text x="100" y="160" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Prompt Collector</text>
+</svg>
